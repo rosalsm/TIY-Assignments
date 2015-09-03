@@ -22,7 +22,7 @@ test('fromEnglish: "zero" through "nine"', function(){
  */
 function fromEnglish(word){
   if (word==="zero"){
-    console.log( 0);
+    console.log(0);
   }
   if (word==="one"){
     console.log(1);
