@@ -1,6 +1,5 @@
 function add(A, B) {
   return A + B;
-};
 
 console.assert(add(0, 0) === 0);
 console.assert(add(0, 1) === 1);
@@ -18,10 +17,10 @@ console.assert(add(0, 9) === 9);
  * @param {Number} B to add to A
  * @return {Number} sum of A and B
  */
+};
 
  function add(A, B) {
    return A + B;
- };
 
  console.assert(add(1, 0) === 1);
  console.assert(add(1, 1) === 2);
@@ -39,11 +38,10 @@ console.assert(add(0, 9) === 9);
   * @param {Number} B to add to A
   * @return {Number} sum of A and B
   */
-
+ };
 
   function add(A, B) {
     return A + B;
-  };
 
   console.assert(add(2, 0) === 2);
   console.assert(add(2, 1) === 3);
@@ -61,10 +59,10 @@ console.assert(add(0, 9) === 9);
    * @param {Number} B to add to A
    * @return {Number} sum of A and B
    */
-
+  };
+  
    function add(A, B) {
      return A + B;
-   };
 
    console.assert(add(3, 0) === 3);
    console.assert(add(3, 1) === 4);
@@ -82,10 +80,10 @@ console.assert(add(0, 9) === 9);
     * @param {Number} B to add to A
     * @return {Number} sum of A and B
     */
+   };
 
     function add(A, B) {
       return A + B;
-    };
 
     console.assert(add(4, 0) === 4);
     console.assert(add(4, 1) === 5);
@@ -103,10 +101,10 @@ console.assert(add(0, 9) === 9);
      * @param {Number} B to add to A
      * @return {Number} sum of A and B
      */
-
+    };
+    
      function add(A, B) {
        return A + B;
-     };
 
      console.assert(add(5, 0) === 5);
      console.assert(add(5, 1) === 6);
@@ -124,10 +122,10 @@ console.assert(add(0, 9) === 9);
       * @param {Number} B to add to A
       * @return {Number} sum of A and B
       */
-
+     };
+     
       function sub(A, B) {
         return A - B;
-      };
 
       console.assert(sub(1, 0) === 1);
       console.assert(sub(1, 1) === 0);
@@ -145,10 +143,9 @@ console.assert(add(0, 9) === 9);
        * @param {Number} B to add to A
        * @return {Number} sum of A and B
        */
-
+      };
        function sub(A, B) {
          return A - B;
-       };
 
        console.assert(sub(2, 0) === 2);
        console.assert(sub(2, 1) === 1);
@@ -166,10 +163,11 @@ console.assert(add(0, 9) === 9);
         * @param {Number} B to add to A
         * @return {Number} sum of A and B
         */
-
+       };
+       
+       
         function sub(A, B) {
           return A - B;
-        };
 
         console.assert(sub(3, 0) === 3);
         console.assert(sub(3, 1) === 2);
@@ -187,11 +185,11 @@ console.assert(add(0, 9) === 9);
          * @param {Number} B to add to A
          * @return {Number} sum of A and B
          */
-
+        };
+        
+        
          function sub(A, B) {
            return A - B;
-         };
-
          console.assert(sub(4, 0) === 4);
          console.assert(sub(4, 1) === 3);
          console.assert(sub(4, 2) === 2);
@@ -208,11 +206,10 @@ console.assert(add(0, 9) === 9);
           * @param {Number} B to add to A
           * @return {Number} sum of A and B
           */
-
+         };
+         
           function sub(A, B) {
             return A - B;
-          };
-
           console.assert(sub(5, 0) === 5);
           console.assert(sub(5, 1) === 4);
           console.assert(sub(5, 2) === 3);
@@ -229,10 +226,9 @@ console.assert(add(0, 9) === 9);
            * @param {Number} B to add to A
            * @return {Number} sum of A and B
            */
-
+          };
            function multiply(A, B) {
              return A * B;
-           };
 
            console.assert(multiply(0, 0) === 0);
            console.assert(multiply(0, 1) === 0);
@@ -250,3 +246,4 @@ console.assert(add(0, 9) === 9);
             * @param {Number} B to add to A
             * @return {Number} sum of A and B
             */
+           };
