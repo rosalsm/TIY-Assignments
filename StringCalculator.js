@@ -21,34 +21,34 @@ test('fromEnglish: "zero" through "nine"', function(){
  */
 function fromEnglish(word){
   if (word==="zero"){
-    console.log(0);
+    return 0;
   }
   if (word==="one"){
-    console.log(1);
+    return 1;
   }
   if (word==="two"){
-    console.log(2);
+    return 2;
   }
   if(word==="three"){
-    console.log(3);
+    return 3;
   }
   if (word==="four"){
-    console.log(4);
+    return 4;
   }
   if (word==="five"){
-    console.log(5);
+    return 5;
   }
   if (word==="six"){
-    console.log(6);
+    return 6;
   }
   if (word==="seven"){
-    console.log(7);
+    return 7;
   }
   if (word==="eight"){
-    console.log (8);
+    return 8;
   }
   if (word==="nine"){
-    onsole.log (9);
+    return 9;
   }
 } // END fromEnglish
 
@@ -73,7 +73,37 @@ test('plus: ("zero", "zero") through ("zero", "nine")', function(){
  */
 function plus(A, B){
   return A+B
-  if (A)
+  if (A==="zero",B==="zero"){
+    return 0;
+  }
+  if (A==="zero", B==="one"){
+    return 1;
+  }
+  if (A==="zero", B==="two"){
+    return 2;
+  }
+  if (A==="zero", B==="three"){
+    return 3;
+  }
+  if (A==="zero", B==="four"){
+    return 4;
+  }
+  if (A==="zero", B==="five"){
+    return 5;
+  }
+  if (A==="zero", B==="six"){
+    return 6;
+  }
+  if (A==="zero", B==="seven"){
+    return 7;
+  }
+  if (A==="zero", B==="eight"){
+    return 8;
+  }
+  if (A==="zero", B==="nine"){
+    return 9;
+  }
+
 } // END plus
 
 test('minus: ("zero", "zero") through ("zero", "nine")', function(){

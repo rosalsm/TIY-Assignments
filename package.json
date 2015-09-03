@@ -1,0 +1,23 @@
+{
+  "name": "tiy-assignments",
+  "version": "1.0.0",
+  "description": "Reading JavaScript** -- Explain and provide examples for: ~ Basic Literal Types:  null. Intentionally empty value. 1 value. null+1 => 1 null-1 => -1 1/null => Infinity",
+  "main": "BasicCalculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosalsm/TIY-Assignments.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rosalsm/TIY-Assignments/issues"
+  },
+  "homepage": "https://github.com/rosalsm/TIY-Assignments#readme",
+  "dependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.0"
+  }
+}
