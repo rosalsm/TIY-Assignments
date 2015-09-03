@@ -103,14 +103,22 @@ function plus(A, B){
   if (A==="zero", B==="nine"){
     return 9;
   }
-
 } // END plus
 
 test('minus: ("zero", "zero") through ("zero", "nine")', function(){
   expect(minus).to.exist;
   expect(minus("zero", "zero")).to.equal(0);
   expect(minus("zero", "one")).to.equal(-1);
-  // etc, etc, etc
+  expect(minus("zero", "two")).to.equal(-2);
+  expect(minus("zero", "three")).to.equal(-3);
+  expect(minus("zero", "four")).to.equal(-4);
+  expect(minus("zero", "five")).to.equal(-5);
+
+  function minus (A,B){
+    return (A-B);
+    if ()
+  }
+
 }); // END test(minus)
 
 // What about multiplication? Division? Exponents?
