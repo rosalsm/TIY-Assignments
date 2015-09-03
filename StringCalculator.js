@@ -13,7 +13,6 @@ test('fromEnglish: "zero" through "nine"', function(){
   expect(fromEnglish("seven")).to.equal(7);
   expect(fromEnglish("eight")).to.equal(8);
   expect(fromEnglish("nine")).to.equal(9);
-  // more tests here, please...
 }); // END test(fromEnglish)
 
 /**
@@ -56,9 +55,15 @@ function fromEnglish(word){
 test('plus: ("zero", "zero") through ("zero", "nine")', function(){
   expect(plus).to.exist;
   expect(plus("zero", "zero")).to.equal(0);
-  expect(plus("zero", "one")).to.equal(1); // change just one thing!
-  expect(plus("zero", "two")).to.equal(2); // ha!
-  // write more tests like those...
+  expect(plus("zero", "one")).to.equal(1);
+  expect(plus("zero", "two")).to.equal(2);
+  expect(plus("zero", "three")).to.equal(3);
+  expect(plus("zero", "four")).to.equal(4);
+  expect(plus("zero", "five")).to.equal(5);
+  expect(plus("zero", "six")).to.equal(6);
+  expect(plus("zero", "seven")).to.equal(7);
+  expect(plus("zero", "eight")).to.equal(8);
+  expect(plus("zero", "nine")).to.equal(9);
 }); // END test(plus)
 
 /**
@@ -67,7 +72,8 @@ test('plus: ("zero", "zero") through ("zero", "nine")', function(){
  * @return {Number} the value of `A` added to `B`
  */
 function plus(A, B){
-  // write those tests first, please...
+  return A+B
+  if (A)
 } // END plus
 
 test('minus: ("zero", "zero") through ("zero", "nine")', function(){
