@@ -57,7 +57,7 @@ Removes the last element from an array and returns that element.
 
 
 
-####Remove from the front.    .swift(). 
+#####Remove from the front.    .swift(). 
 
 Removes the first element from the array and returns this element.
 
@@ -98,7 +98,7 @@ Adds and/or removes elements from the array. Returns an array with the deleted e
   //["elem2", "elem3", "elem4", "elem5"]
   
 
-####Removes items in a group.    .slice()
+#####Removes items in a group.    .slice()
 
 Extracts a seccion of an array and returns the new array. Returns a shallow copy of items from the original array.
 
@@ -109,7 +109,7 @@ Extracts a seccion of an array and returns the new array. Returns a shallow copy
   b where to end the extraction not including the last. If there is no end, it includes the last item. A negative index indicates an offset from the end.
   
   
-####Reverse the items.    .reverse(). 
+#####Reverse the items.    .reverse(). 
 
 Reverse the order of the elements in the array. The last becomes the last and the last becomes the first. Returns an array with reverse order of items.
 
