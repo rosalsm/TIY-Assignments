@@ -68,7 +68,8 @@ Infinity-Infinity
 => NaN
 0/0
 => NaN
-
+`Infinity`.Numbers with no end. Unlimited number of characters.
+any number / 0 gives you Infinity
 
 
 
@@ -86,5 +87,4 @@ Arrays are zero-indexed, the first element is located in the index 0. The last e
 
 Array elements are property objects but they must be accessed using brackets notation []
 
-`Infinity`.Numbers with no end. Unlimited number of characters.
-any number / 0 gives you Infinity
+
