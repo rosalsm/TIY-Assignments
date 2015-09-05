@@ -39,6 +39,7 @@ Returns the first item of the array.
 
 Add one or more elements at the end of the array and returns the new length of the array.
 
+  
   var newLength = example.push("elem6");
   
   //["elem1", "elem2", "elem3", "elem4", "elem5", "elem6"]
@@ -48,6 +49,7 @@ Add one or more elements at the end of the array and returns the new length of t
 
 Removes the last element from an array and returns that element.
 
+    
     var last = example.pop;
     
     //["elem1", "elem2", "elem3", "elem4"]
@@ -59,6 +61,7 @@ Removes the last element from an array and returns that element.
 
 Removes the first element from the array and returns this element.
 
+   
    var first = example.swift ();
    
    //["elem2", "elem3", "elem4", "elem5"]
@@ -69,6 +72,7 @@ Removes the first element from the array and returns this element.
 
 Adds one or more elements to the front of an array and returns the new length of the array.
 
+  
   var newLength = example.unswift (elem);
   
   //['elem', "elem1", "elem2", "elem3", "elem4", "elem5"]
@@ -78,6 +82,7 @@ Adds one or more elements to the front of an array and returns the new length of
 
 Finds the index of an item in the array. Returns the index of the element.
 
+  
   var posit = example.indexOf(elem1);
   
   //0
@@ -87,6 +92,7 @@ Finds the index of an item in the array. Returns the index of the element.
 
 Adds and/or removes elements from the array. Returns an array with the deleted elements.
 
+  
   var removeItem = example.splice(0,1);
   
   //["elem2", "elem3", "elem4", "elem5"]
@@ -96,6 +102,7 @@ Adds and/or removes elements from the array. Returns an array with the deleted e
 
 Extracts a seccion of an array and returns the new array. Returns a shallow copy of items from the original array.
 
+  
   var removeGroup = example.slice(a, b)
   
   a is the index starting point to extract. if it is a negative index indicates an offset from the end of the array.
