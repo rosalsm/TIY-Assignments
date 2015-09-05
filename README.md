@@ -69,5 +69,22 @@ Infinity-Infinity
 0/0
 => NaN
 
+
+
+
+
+
+
+
+## `Arrays`
+
+Arrays are list-like objects whose prtotype has methods to perform traversal and mutation operations.
+Neither the length of the JavaScript arrays nor the types of its elements are fixed.
+Since the array's length can grow or shrink anytime, JavaScript arrys aare not guaranteed to be dense. If this is not convinient,typed arrays can be used.
+
+Arrays are zero-indexed, the first element is located in the index 0. The last element is located in the index array.length -1.
+
+Array elements are property objects but they must be accessed using brackets notation []
+
 `Infinity`.Numbers with no end. Unlimited number of characters.
 any number / 0 gives you Infinity
