@@ -18,9 +18,15 @@ console.assert(add(0, 9) === 9);
  * @return {Number} sum of A and B
  */
 };
+<<<<<<< HEAD
+ function add(A, B) {
+   return A + B;
+
+=======
 
  function add(A, B) {
    return A + B;
+>>>>>>> b4e347215f471b056fe081bfde329a619d61038c
 
  console.assert(add(1, 0) === 1);
  console.assert(add(1, 1) === 2);
@@ -38,10 +44,18 @@ console.assert(add(0, 9) === 9);
   * @param {Number} B to add to A
   * @return {Number} sum of A and B
   */
+<<<<<<< HEAD
+};
+
+  function add(A, B) {
+    return A + B;
+
+=======
  };
 
   function add(A, B) {
     return A + B;
+>>>>>>> b4e347215f471b056fe081bfde329a619d61038c
 
   console.assert(add(2, 0) === 2);
   console.assert(add(2, 1) === 3);
@@ -59,10 +73,18 @@ console.assert(add(0, 9) === 9);
    * @param {Number} B to add to A
    * @return {Number} sum of A and B
    */
+<<<<<<< HEAD
+ };
+
+   function add(A, B) {
+     return A + B;
+
+=======
   };
   
    function add(A, B) {
      return A + B;
+>>>>>>> b4e347215f471b056fe081bfde329a619d61038c
 
    console.assert(add(3, 0) === 3);
    console.assert(add(3, 1) === 4);
@@ -80,7 +102,12 @@ console.assert(add(0, 9) === 9);
     * @param {Number} B to add to A
     * @return {Number} sum of A and B
     */
+<<<<<<< HEAD
+  }
+
+=======
    };
+>>>>>>> b4e347215f471b056fe081bfde329a619d61038c
 
     function add(A, B) {
       return A + B;
@@ -101,8 +128,14 @@ console.assert(add(0, 9) === 9);
      * @param {Number} B to add to A
      * @return {Number} sum of A and B
      */
+<<<<<<< HEAD
+   }
+
+
+=======
     };
     
+>>>>>>> b4e347215f471b056fe081bfde329a619d61038c
      function add(A, B) {
        return A + B;
 
@@ -122,8 +155,14 @@ console.assert(add(0, 9) === 9);
       * @param {Number} B to add to A
       * @return {Number} sum of A and B
       */
+<<<<<<< HEAD
+    };
+
+
+=======
      };
      
+>>>>>>> b4e347215f471b056fe081bfde329a619d61038c
       function sub(A, B) {
         return A - B;
 
@@ -143,7 +182,13 @@ console.assert(add(0, 9) === 9);
        * @param {Number} B to add to A
        * @return {Number} sum of A and B
        */
+<<<<<<< HEAD
+     }
+
+
+=======
       };
+>>>>>>> b4e347215f471b056fe081bfde329a619d61038c
        function sub(A, B) {
          return A - B;
 
@@ -163,9 +208,15 @@ console.assert(add(0, 9) === 9);
         * @param {Number} B to add to A
         * @return {Number} sum of A and B
         */
+<<<<<<< HEAD
+      };
+
+
+=======
        };
        
        
+>>>>>>> b4e347215f471b056fe081bfde329a619d61038c
         function sub(A, B) {
           return A - B;
 
@@ -185,11 +236,20 @@ console.assert(add(0, 9) === 9);
          * @param {Number} B to add to A
          * @return {Number} sum of A and B
          */
+<<<<<<< HEAD
+       }
+
+
+         function sub(A, B) {
+           return A - B;
+
+=======
         };
         
         
          function sub(A, B) {
            return A - B;
+>>>>>>> b4e347215f471b056fe081bfde329a619d61038c
          console.assert(sub(4, 0) === 4);
          console.assert(sub(4, 1) === 3);
          console.assert(sub(4, 2) === 2);
@@ -206,10 +266,19 @@ console.assert(add(0, 9) === 9);
           * @param {Number} B to add to A
           * @return {Number} sum of A and B
           */
+<<<<<<< HEAD
+        }
+
+
+          function sub(A, B) {
+            return A - B;
+
+=======
          };
          
           function sub(A, B) {
             return A - B;
+>>>>>>> b4e347215f471b056fe081bfde329a619d61038c
           console.assert(sub(5, 0) === 5);
           console.assert(sub(5, 1) === 4);
           console.assert(sub(5, 2) === 3);
@@ -226,7 +295,13 @@ console.assert(add(0, 9) === 9);
            * @param {Number} B to add to A
            * @return {Number} sum of A and B
            */
+<<<<<<< HEAD
+           };
+
+
+=======
           };
+>>>>>>> b4e347215f471b056fe081bfde329a619d61038c
            function multiply(A, B) {
              return A * B;
 
@@ -246,4 +321,8 @@ console.assert(add(0, 9) === 9);
             * @param {Number} B to add to A
             * @return {Number} sum of A and B
             */
+<<<<<<< HEAD
+            };
+=======
            };
+>>>>>>> b4e347215f471b056fe081bfde329a619d61038c
