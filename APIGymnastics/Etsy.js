@@ -1,20 +1,35 @@
+
 // Put `items.json` in your `APIGymnastics` directory...
 var items = require('items.json');
 
 // TODO: Setup mocha and chai...
 
-test('this is the easy one', function(){
+//test('this is the easy one', function(){
   expect(Array.isArray(items)).to.be.true; // What.
   // see: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray
 
-  expect(items.length).to.equal(FILL_ME_IN); // It's haunting me now...
+  expect(items.length).to.equal(25); // It's haunting me now...
 });
+
+
+/* I think Items.json contains an array and inside there is
+another array with different contents as price, listing ID, title, category, etc.
+Every time you want to call the array in a particular index you can get another array
+with the elements of this index of all items. */
+
 
 test('finding the average price', function(){
-  var yourAnswer = "start with `items`; use `Array` methods";
+  var averagePrice = "start with `items`; use `Array` methods";
 
-  expect(yourAnswer).to.be.closeTo(23.63, 0.01);
+  expect(averagePrice).to.be.closeTo(23.63, 0.01);
 });
+
+
+
+Function FindingAvPrice (items){
+  var sum = 0, n=0
+  for (items["price"])
+}
 
 test('finding that perfect $15 item', function(){
   /**
@@ -22,8 +37,14 @@ test('finding that perfect $15 item', function(){
    * @return {Array} of `items` with `price` between `min` and `max` USD
    */
   function pricedBetween(items, min, max){
-    // Just a suggestion, really...
+    var min = 14, max = 18
+     for (min<= items["price"] <= max){
+    }
   }
+  var filetered = items ["price"].pricedBetween
+
+
+
 
   expect( pricedBetween(items, 14, 18) ).to.deep.equal([
     // Can you find their names _without_ code first?
