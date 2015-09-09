@@ -1,6 +1,6 @@
 (function (window) {
 	'use strict';
 
-	// Your starting point. Enjoy the ride!
+	// I don't know how it works yet but it seems that they are giving us the option to write a line in the block
 
 })(window);
