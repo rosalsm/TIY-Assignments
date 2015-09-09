@@ -1,6 +1,6 @@
 # TIY-Assignments
 Reading JavaScript** -- Explain and provide examples for:
-~ Basic Literal Types: 
+~ Basic Literal Types:
 null. Intentionally empty value. 1 value.
 null+1
 => 1
@@ -58,7 +58,7 @@ drink
 food+drink
 => 'appleslemonade
 
-~ Built-in Constants: 
+~ Built-in Constants:
 undefined. Absence of a meaningful value.
 
  `NaN`. Not a Number. It has no meaningful result.
@@ -68,6 +68,5 @@ Infinity-Infinity
 => NaN
 0/0
 => NaN
-
 `Infinity`.Numbers with no end. Unlimited number of characters.
 any number / 0 gives you Infinity
