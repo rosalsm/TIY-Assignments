@@ -34,7 +34,7 @@ heading[0].addEventListener('click', function(){
   }
   //if className is already there you want to remove it in order to close the
   // the text
-});
+  });
 
 //here we are opening and closing the second heading
 heading[1].addEventListener('click', function(){
