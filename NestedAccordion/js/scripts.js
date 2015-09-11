@@ -15,6 +15,7 @@
 // we get the code to open and close the first option h3 oat cake
 //
 //
+
 var heading = document.querySelectorAll('h3.cbp-nttrigger');
 var liHeading = document.querySelectorAll('li.cbp-ntopen');
 
