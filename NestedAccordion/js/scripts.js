@@ -16,7 +16,7 @@
 //
 //
 var heading = document.querySelectorAll('h3.cbp-nttrigger');
-var liHeading = document.querySelectorAll('li.cbp-ntopen')
+var liHeading = document.querySelectorAll('li.cbp-ntopen');
 
 heading[0].addEventListener('click', function(){
   //we are looking for the click on the mouse event to open and close the h3
