@@ -42,3 +42,29 @@ have a substancial change between them.*/
 //  console.log(listView)
 // }
 // } );
+
+var divpar = document.querySelector('div#cbp-vm');
+// store the parent with Id cbp-vm in a variable
+//
+var aGrid = document.querySelector('a.cbp-vm-icon.cbp-vm-grid');
+//store the child with the grid attribute in a variable
+//a.(class)cbp...
+var aList = document.querySelector('a.cbp-vm-icon.cbp-vm-list');
+//store the child with the list attribute in a variable
+//a.(class)cbp...
+function clickGrid(){
+  // var curButton = clickButton.currentTarget;
+  // divVm.className = 'cbp-vm-switcher cbp-vm-view-grid';
+  // curButton.className = 'cbp-vm-icon cbp-vm-grid cbp-vm-selected';
+  // aList.className = 'cbp-vm-icon cbp-vm-list';
+}
+
+function clickList(){
+  // var curButton = clickButton.currentTarget;
+  // divVm.className = 'cbp-vm-switcher cbp-vm-view-list';
+  // curButton.className = 'cbp-vm-icon cbp-vm-list cbp-vm-selected';
+  // aGrid.className = 'cbp-vm-icon cbp-vm-grid'
+}
+
+aGrid.addEventListener ('click', clickGrid);
+aList.addEventListener ('click', clickList);
