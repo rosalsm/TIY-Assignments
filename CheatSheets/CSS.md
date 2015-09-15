@@ -68,3 +68,8 @@ There is a convenient shorthand Property, font, we can specify several
 ####Writing Modes
 
 ####List, tables and forms
+
+####Display
+
+This property specifies the type of box for an HTML element (inline, block, Flexible
+	inline-blockinline-table, list-item, table,etc)

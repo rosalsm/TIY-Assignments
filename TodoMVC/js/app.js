@@ -5,7 +5,11 @@
 
 
 	// I can add a task to my todo list so that I can remember to do it later.
-
+How do I (as a user) add a task to the list?
+Select the form field for a new task (`<input type="text" id="new_task">`)
+Type in your task.
+Press the enter key
+Then the task
 	// I can make a list of things to do. A list of elements in diferent lines
 	// so we can treat them separately. With text and same colors.
 
