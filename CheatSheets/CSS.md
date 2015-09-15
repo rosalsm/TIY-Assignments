@@ -71,5 +71,26 @@ There is a convenient shorthand Property, font, we can specify several
 
 ####Display
 
-This property specifies the type of box for an HTML element (inline, block, Flexible
-	inline-blockinline-table, list-item, table,etc)
+###Box model properties
+
+In a document, each element is represented as a rectangular box. Each of these rectangular boxes is describe using the standard  box model. This model describes the content of the space taken by an element. Each box has four edges:
+
+Margin Edge
+Border Edge
+Padding edge
+Content Edge
+
+####Margin area.
+
+Extends the border area with an empty area used to separate the element from its neighbors around. Its dimensions are margin-box width and margin-box height. Control using the shorthand margin.
+
+####Padding.
+
+This property sets the padding space on all sides of an element. It is located in the space between the content of the element and its border. We can use a short-hand to avoid setting each separately.
+
+	h4{ padding: 50px 50px 400px 20px;}
+
+
+####Border.
+
+This property sets a border around the element. It has a shorthand  for setting the individual property values
