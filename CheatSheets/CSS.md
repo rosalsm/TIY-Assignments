@@ -37,29 +37,34 @@
 
 ## Properties
 
-Color  		element { color:   }    body {color: red}
-Opacity	element {opacity:  }  div {opacity: 0.5}
+####Color  		
 
-Background and border
-Basic Box
-Flexible box
-Text
-Text decoration
-Font
-Writing Modes
-List, tables and forms
-layout. controling the position of elements
-images
-etc
+element { color:   }    body {color: red}
 
-### [`color`](https://developer.mozilla.org/en-US/docs/Web/CSS/color)
+CSS2 supports 17 named colors but your browser can support more than that.
+It could be color property on text or background-color
 
-The text color of an element and its decorations (??)
+####Opacity		
 
-#### Possible Values: [any `<color>` value](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
+element {opacity:  }  div {opacity: 0.5}
 
-* a hexadecimal color value: `#012345`, `#CCC`
-* a color keyword: `cornflowerblue`, `purple`, `orange`
-* RGB decimal notation: `rgb(0,0,0)`, `rgb(255, 255, 255)`
-* RGBa (transparency) notation: `rgba(0,0,0,0)`, `rgba(255, 255, 255, 0.8)`
-* HSL decimal notation: `hsl(0, 100%, 50%)`
+####Background and border
+
+####Basic Box
+
+There four parts of the space that an element takes up. Element, padding, border,
+and margin.
+
+####Flexible box
+
+####Text style.
+
+There is a convenient shorthand Property, font, we can specify several
+	aspects at once (bold, italic, small-caps, size, line height, font typeface)
+####Text decoration
+
+####Font
+
+####Writing Modes
+
+####List, tables and forms
