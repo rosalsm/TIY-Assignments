@@ -1,4 +1,4 @@
-# Reading CSS
+# Reading CSS.
 
 ## Selectors
 
@@ -71,5 +71,47 @@ There is a convenient shorthand Property, font, we can specify several
 
 ####Display
 
-This property specifies the type of box for an HTML element (inline, block, Flexible
-	inline-blockinline-table, list-item, table,etc)
+###Box model properties
+
+In a document, each element is represented as a rectangular box. Each of these rectangular boxes is describe using the standard  box model. This model describes the content of the space taken by an element. Each box has four edges:
+
+Margin Edge
+Border Edge
+Padding edge
+Content Edge
+
+####Margin area.
+
+Extends the border area with an empty area used to separate the element from its neighbors around. Its dimensions are margin-box width and margin-box height. Control using the shorthand margin.
+
+	h4{ 2px 1em 0 auto} (top right bottom left)   1em is approx 20px (pixels)
+
+####Padding.
+
+This property sets the padding space on all sides of an element. It is located in the space between the content of the element and its border. We can use a short-hand to avoid setting each separately.
+
+	h4{ padding: 50px 50px 400px 20px;} (top right bottom left)
+
+
+####Border.
+
+This property sets a border around the element. It has a shorthand  for setting the individual property values. We can adjust Border-width, border-color and border-style.
+
+####Max-
+
+The max-property (width, height, etc) is used to set the maximum value of the property for a given element.
+It prevents the used value for the property from becoming larger than the value specified.
+
+	max-width:3.5em
+
+####Min-
+
+Same meaning than max but with the minimum value.
+
+####Box-sizing
+
+This property allows to alter the default box model. It could be:
+
+ Content-box.The width and height are measured including only the content but not the padding, border or margin (they will be outside the box)
+
+ Border-box. The width and height include the padding and border but not the margin.
