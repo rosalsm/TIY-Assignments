@@ -1,4 +1,4 @@
-# Reading CSS
+# Reading CSS.
 
 ## Selectors
 
