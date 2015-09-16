@@ -1,0 +1,32 @@
+
+/* h1 is the designated area for the title of the form*/
+h1 {
+  font-size: 5em; color:#DB7093; font-style:tangerine;
+}
+/* a are the elements with the icons on the top of the form, in my case,
+we don't have any icons because deleting the css previous values, I have removed
+their linked icons.*/
+a {
+  color:red;
+}
+/* label are the elements where you can read what to write in the next box. It is a
+label for first name, last name, etc.*/
+label{
+  font-size: 3em; color:#6495ED ; font-style: times;
+}
+/* area of input, different blocks to write first name, last name, email, phone number, etc.*/
+input{
+  font-size: 2em; color: #FF4500; font-style: calibri; background-color: #FAFAD2;
+}
+/* select is the area for the multi-options*/
+select {
+  background-color: #FAFAD2;
+}
+/* body is the area of the whole document*/
+body {
+  background-color: #DEB887;
+}
+/* textarea are the block space to type information in Biography, afiliations and comments*/
+textarea {
+  background-color: #FAFAD2;
+}
