@@ -39,10 +39,15 @@
 
 ####Color  		
 
-element { color:   }    body {color: red}
+element { color:key words(color name, #AAAA88 or rgb, hsl) }    
+body {color: red}
 
 CSS2 supports 17 named colors but your browser can support more than that.
 It could be color property on text or background-color
+
+#####background-color
+
+Sets the color of the background.
 
 ####Opacity		
 
@@ -61,9 +66,56 @@ and margin.
 
 There is a convenient shorthand Property, font, we can specify several
 	aspects at once (bold, italic, small-caps, size, line height, font typeface)
-####Text decoration
+
+####Test-
+
+#####align.
+
+How to text is aligned in its parent block element(left, right, center, justify,
+	start, end, match parent, inherit, initial, unset,...)
+
+#####transform.
+
+How to capitalize an element's text.(uppercase, lowercase, none,...)
+
+#####decoration.
+
+It is used to set the formatting (none, underline red, underline wavy red, inherit,
+	initial, unset,...)
+
+#####shadow.
+
+Adds shadows to text.
+
 
 ####Font
+
+It is a property that changes the text. We can change the
+
+
+#####font-family.
+
+Changing the font-style of all the text in the document.
+
+#####font-size.
+
+We can use different units of measurement:
+Pixels. px
+Percentages. The default size will be  16px and from there we can have bigger sizes
+ 200%(32px) or smaller 75% (12px).
+EMS. It is the equivalent to the width of a letter m.
+Points. pt
+
+#####src
+
+We can specified the path of the font like:
+
+	src: url('folder/file')
+
+####line-height.
+
+It refers to the font-size + leading. From the bottom of the letter in a line
+to the bottom of the letter in the line above.
 
 ####Writing Modes
 

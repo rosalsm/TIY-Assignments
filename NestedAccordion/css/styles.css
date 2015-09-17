@@ -2,19 +2,52 @@
 
 
 h1 {
-  font-size: 3.5em; color:#FF00FF; font-style: Impact;
+  font-size:25pt ;
+  color:cornflowerblue;
+  font-style: Impact;
 }
 
 
-h3 {
-  font-size:3em ; color:Green; font-style: cursive;
+h3{
+  border-bottom:10px ;
+  border-bottom-color: grey;
 }
+
+.cbp-ntaccordion .cbp-nttrigger {
+  font-size:30pt ;
+  color:cornflowerblue;
+  font-style: cursive;
+
+}
+
+h3:before{
+  content:'\27b5' ;
+}
+
+
+h3:hover:before{
+  content:'\27b4' ;
+}
+
+h4:before{
+  content:'\27b5' ;
+}
+
+
+h4:hover:before{
+  content:'\27b4' ;
+}
+
 
 
 li {
-  font-size:1.5em; color:#7FFF00; font-style: Comic Sans Ms;
+  font-size:20pt;
+  color:grey;
+  font-style: Comic Sans Ms;
 }
 
 p {
-  font-size:0.5em; color:#FA8072; font-style:italic;
+  font-size:15pt;
+  color:#FA8072;
+  font-style:italic;
 }
