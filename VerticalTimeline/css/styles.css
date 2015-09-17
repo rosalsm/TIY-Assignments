@@ -1,33 +1,83 @@
-h1{
-  color:cornflowerblue ;
+body{
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  width: 914px;
+  height:1591px;
+}
+span{         /*blueprint*/
+  float: left;
+  display: block;
+  color: cornflowerblue;
+}
+
+header{
+  height: 
+}
+nav{
+  float: right;
+}
+
+h1{       /* vertical timeline*/
+  color:cornflowerblue;
   font-size:3em ;
   font-style: cursiva ;
+  float: left;
+  display: block;
+}
+
+.main{
+  margin-left: 7%;
+  margin-right: 3%;
+  width: 90%;
 }
 h2 {
   color:white ;
   font-size:2em ;
   font-style:colibri ;
 }
-.cbp_tmtime{
-  float: left;
 
-}
-.cbp_tmlabel{
-  color: white;
-  float: left;
-  background-color: cornflowerblue;
-  font-style: colibri;
-  margin-right: 15px;
-  width: px
-}
-.cbp_tmtime {
-  color: cornflowerblue;
-}
-time.cbp_tmtime{
+.cbp_tmtimeline{
   box-sizing: border-box;
   font-size: 16px;
   padding-bottom: 20px;
-  background-color: cornflowerblue;
-  float: left;
+  float: right;
+  box-sizing: border-box;
+  content: "";
+  width: 80%;
+  margin-left: 5%;
+}
+
+li{
+  position: relative;
+  box-sizing: border-box;
+  display: list-item;
+  width:100%;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+
+.cbp_tmtime{
+  color: #6cbfee;
+  background-color: white;          /*date and time*/
+  display: block;
+  width: 10%;
+  margin-right: 80%;
+  position: absolute;
+}
+.cbp_tmlabel{           /*p and ricebean black-eye pea*/
+  color: white;
+  box-sizing: border-box;
+  float:rigth;
+  background-color:#6cbfee ;
+  background-clip: border-box;
+  font-style: colibri;
+  margin-left:60px;
+
 
 }
