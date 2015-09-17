@@ -1,12 +1,33 @@
 h1{
-  color:#8A2BE2 ; font-size:3em ; font-style: cursiva ;
+  color:cornflowerblue ;
+  font-size:3em ;
+  font-style: cursiva ;
 }
 h2 {
-  color:Green ; font-size:2em ; font-style:colibri ;
+  color:white ;
+  font-size:2em ;
+  font-style:colibri ;
+}
+.cbp_tmtime{
+  float: left;
+
 }
 .cbp_tmlabel{
-  color: #7B68EE; background-color: #FFE4C4;font-style: colibri;
+  color: white;
+  float: left;
+  background-color: cornflowerblue;
+  font-style: colibri;
+  margin-right: 15px;
+  width: px
 }
 .cbp_tmtime {
-  color: red; background-color: #9ACD32;
+  color: cornflowerblue;
+}
+time.cbp_tmtime{
+  box-sizing: border-box;
+  font-size: 16px;
+  padding-bottom: 20px;
+  background-color: cornflowerblue;
+  float: left;
+
 }

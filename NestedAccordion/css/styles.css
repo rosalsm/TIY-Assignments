@@ -20,10 +20,24 @@ h3{
 
 }
 
-
-h3::before{
-  content:'\279c' ;
+h3:before{
+  content:'\27b5' ;
 }
+
+
+h3:hover:before{
+  content:'\27b4' ;
+}
+
+h4:before{
+  content:'\27b5' ;
+}
+
+
+h4:hover:before{
+  content:'\27b4' ;
+}
+
 
 
 li {
