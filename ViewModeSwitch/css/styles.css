@@ -11,6 +11,7 @@ body{
 
 .cbp-vm-icon{
   text-decoration: none;
+
 }
 
 .cbp-vm-icon.cbp-vm-grid::before{ /*icons for grid */
