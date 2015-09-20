@@ -29,7 +29,7 @@ div{
   margin-right: auto;
   box-sizing: border-box;
 }
-label{
+label{   /*name of each input */
   text-transform: uppercase;
   font-size: 20px;
   color: white;
@@ -51,13 +51,24 @@ input{  /* text to fill in*/
 }
 select{  /* display with options*/
   background-color:#47a3da;
+  color: white;
   border: solid;
   border-color: white;
+  padding-left: 5px;
+  padding-right:5px ;
+  padding-top:10px ;
+  padding-bottom:10px ;
+  font-size: 30px;
 }
 .cbp-mc-form textarea{     /* display to write*/
   background-color: #47a3da;
   border: solid;
   border-color: white;
+  padding-left: 5px;
+  padding-right:5px ;
+  padding-top:10px ;
+  padding-bottom:10px ;
+  font-size: 30px;
 }
 
 

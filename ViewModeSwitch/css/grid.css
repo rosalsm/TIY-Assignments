@@ -1,0 +1,84 @@
+body{
+  color: #47a3da;
+  font: fontawesome;
+
+}
+
+/*.bp-icon{     /*circle icons for options*/
+  color: #47a3da;
+  text-decoration: none;
+}
+
+.cbp-vm-icon{
+  text-decoration: none;
+
+}
+
+
+
+
+li{                /*each row of bottles*/
+  display: table;
+  text-align: center;
+  width: 33%;
+  height:
+  padding:10px 10px 10px 10px;
+  float: left;
+  margin-top: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.cbp-vm-image{    /*bottle pictures*/
+  width: 5%;
+  height: 20%;
+  float: left;
+  display: inline-block;
+  max-width: 100%;
+  padding-bottom:0 10px 20px 10px;
+  display: block;
+}
+h3.cbp-vm-title{  /*names of drinks*/
+  width: 10%;
+  height: 20%;
+  float: left;
+  font-size: 25px;
+  padding-top: 1%;
+  padding-bottom: 3%;
+
+}
+div.cbp-vm-price{     /*prices*/
+  width: 20%;
+  height: 20%;
+  float: left;
+  color: grey;
+  font-size: 25px;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  margin-top: 2%;
+}
+.cbp-vm-details{  /* drink explanation */
+  width: 20%;
+  height: 20%;
+  box-sizing: border-box;
+  margin-left: 2%;
+  margin-right: 2%;
+  vertical-align: middle;
+  display: inline-block;
+  float: left;
+}
+.cbp-vm-icon.cbp-vm-add{  /*add to cart of bottles*/
+  width: 10%;
+  height: 20%;
+  float: left;
+  box-sizing: border-box;
+  border-radius: 2px;
+  color: white;
+  background-color: #47a3da;
+  padding: 10px 20px 10px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  text-align: center;
+
+
+}
