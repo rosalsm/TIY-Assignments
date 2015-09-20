@@ -1,2 +1,30 @@
-.cbp-mc-column{
-  width: 33%;
+/*iphone 5 and 5S portrait and landscape*/
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .cbp-mc-column{  /*each column*/
+      float: left;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin: 0 auto;
+      box-sizing: border-box;
+    }
+
+    .cbp-mc-submit{     /*send your info submit bottom*/
+      color: white;
+      background-color:#10689a;
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 20px;
+      padding: 15px 30px;
+      font-size: 20px
+
+    }
+
+
+
+  }
