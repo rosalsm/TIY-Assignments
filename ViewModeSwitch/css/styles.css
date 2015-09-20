@@ -1,7 +1,7 @@
 body{
   color: #47a3da;
   font: fontawesome;
-
+  height: 3000px;
 }
 
 .bp-icon{     /*circle icons for options*/
@@ -9,10 +9,22 @@ body{
   text-decoration: none;
 }
 
-.cbp-vm-icon{
+.cbp-vm-icon{   /*circle icons for options list and grid*/
   text-decoration: none;
+  color: #47a3da;
+  float: right;
+}
+.main{
+  border-style: solid;
+  height: 2000px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
 
 }
+
 
 .cbp-vm-icon.cbp-vm-grid::before{ /*icons for grid */
   color: #47a3da;
@@ -39,16 +51,40 @@ body{
   white-space: nowrap;
 
 }
+.cbp-vm-options{
+  height: 60px;
+}
+ul.cbp-vm-view-grid{
+  height: 1900px;
+  padding: 0px;
+  border-top: solid;
+}
 
-
-
-li{                /*each row of bottles*/
+li.cbp-vm-view-list{                /*each row of bottles*/
   display: table;
   text-align: left;
   height: 8.33%;
   width: 100%;
 }
-.cbp-vm-image{    /*bottle pictures*/
+li.cbp-vm-view-grid{                /*each set of 1 of each bottle, price, title, details, icon*/
+  display: table;
+  text-align: center;
+  width: 30%;
+  padding:10px  10px;
+  float: left;
+  margin-top: 40px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.cbp-vm-image.cbp-vm-view-grid{    /*bottle pictures*/
+  display: inline-block;
+  max-width: 100%;
+  padding-bottom:0 10px 20px 10px;
+  display: inline-block;
+}
+
+
+.cbp-vm-image.cbp-vm-view-list{    /*bottle pictures*/
   width: 20%;
   height: 40%;
   float: left;
@@ -56,7 +92,11 @@ li{                /*each row of bottles*/
   max-width: 100%;
   padding-bottom:0 10px 20px 10px;
 }
-h3.cbp-vm-title{  /*names of drinks*/
+h3.cbp-vm-title.cbp-vm-view-grid{  /*names of drinks*/
+  font-size: 25px;
+}
+
+h3.cbp-vm-title.cbp-vm-view-list{  /*names of drinks*/
   width: 20%;
   height: 20%;
   float: left;
@@ -65,7 +105,16 @@ h3.cbp-vm-title{  /*names of drinks*/
   padding-bottom: 3%;
 
 }
-div.cbp-vm-price{     /*prices*/
+div.cbp-vm-price.cbp-vm-view-grid{     /*prices*/
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: grey;
+  font-size: 25px;
+  box-sizing: border-box;
+
+}
+
+div.cbp-vm-price.cbp-vm-view-list{     /*prices*/
   width: 20%;
   height: 20%;
   float: left;
@@ -76,7 +125,12 @@ div.cbp-vm-price{     /*prices*/
   padding: 10px 20px 10px 20px;
   margin-top: 2%;
 }
-.cbp-vm-details{  /* drink explanation */
+.cbp-vm-details.cbp-vm-view-grid{  /* drink explanation */
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.cbp-vm-details.cbp-vm-view-list{  /* drink explanation */
   width: 20%;
   height: 20%;
   box-sizing: border-box;
@@ -86,7 +140,20 @@ div.cbp-vm-price{     /*prices*/
   display: inline-block;
   float: left;
 }
-.cbp-vm-icon.cbp-vm-add{  /*add to cart of bottles*/
+.cbp-vm-icon.cbp-vm-add.cbp-vm-view-grid{  /*add to cart of bottles*/
+
+  box-sizing: border-box;
+  border-radius: 2px;
+  color: white;
+  background-color: #47a3da;
+  padding: 10px 20px 10px 20px;
+  margin-top: 30px;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.cbp-vm-icon.cbp-vm-add.cbp-vm-view-list{  /*add to cart of bottles*/
   width: 10%;
   height: 20%;
   float: left;
@@ -98,6 +165,4 @@ div.cbp-vm-price{     /*prices*/
   margin-top: 10px;
   text-decoration: none;
   text-align: center;
-
-
 }
