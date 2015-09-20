@@ -6,6 +6,7 @@
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio:1) {
 
+
     .cbp-mc-column{  /*each clomun*/
       float: left;
       width: 50%;
@@ -13,15 +14,16 @@
       margin-right: auto;
       margin: 0 auto;
       box-sizing: border-box;
+
     }
-    form div:last-child{
+    /*the third column has room in a tablet to be 100% of width*/
+    .cbp-mc-column:nth-child(3){
       float: left;
       width: 100%;
       margin-left: auto;
       margin-right: auto;
       margin: 0 auto;
       box-sizing: border-box;
-
     }
     .cbp-mc-submit{     /*send your info submit bottom*/
       color: white;
@@ -35,8 +37,4 @@
       font-size: 20px
 
     }
-
-
-
-
-  }
+}

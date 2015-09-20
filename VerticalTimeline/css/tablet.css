@@ -7,6 +7,14 @@
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio:1) {
 
+    .cbp_tmtimeline{   /* big column with all boxes*/
+      box-sizing: border-box;
+      float: right;
+      box-sizing:border-box;
+      width:500px;
+      margin-right: 100px;
+    }
+
 
 
 

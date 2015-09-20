@@ -1,25 +1,25 @@
 body{
   background-color: #47a3da;
   color: white;
-
 }
 
-
-h1{
+h1{  /*responsive multicolumn form title*/
   color: white;
   font-size: 30px;
-
 }
 
 
-.bp-icon{
+.bp-icon{  /*icons far right top*/
   color: white;
   font-size: 15px
   float:right;
 }
-div{
+.main{    /* main part of the document including columns but not top*/
   padding-left: 30px;
   padding-right: 30px;
+}
+.cbp-mc-form{
+  width: 100%;
 }
 
 .cbp-mc-column{  /*each clomun*/
@@ -53,12 +53,13 @@ select{  /* display with options*/
   background-color:#47a3da;
   color: white;
   border: solid;
-  border-color: white;
+  border-color: rgb(166, 166, 166);
   padding-left: 5px;
   padding-right:5px ;
   padding-top:10px ;
   padding-bottom:10px ;
   font-size: 30px;
+  border-radius: 2px;
 }
 .cbp-mc-form textarea{     /* display to write*/
   background-color: #47a3da;

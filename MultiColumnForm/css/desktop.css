@@ -1,0 +1,87 @@
+body{
+  background-color: #47a3da;
+  color: white;
+}
+
+h1{  /*responsive multicolumn form title*/
+  color: white;
+  font-size: 30px;
+}
+
+
+.bp-icon{  /*icons far right top*/
+  color: white;
+  font-size: 15px
+  float:right;
+}
+.main{    /* main part of the document including columns but not top*/
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.cbp-mc-form{
+  width: 100%;
+}
+
+.cbp-mc-column{  /*each clomun*/
+  float: left;
+  width: 33%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+label{   /*name of each input */
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+  display: block;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top:10px ;
+  padding-bottom:10px ;
+}
+input{  /* text to fill in*/
+  background-color:#47a3da;
+  border: solid;
+  border-color: white;
+  padding-left: 5px;
+  padding-right:5px ;
+  padding-top:10px ;
+  padding-bottom:10px ;
+  font-size: 30px;
+}
+select{  /* display with options*/
+  background-color:#47a3da;
+  color: white;
+  border: solid;
+  border-color: rgb(166, 166, 166);
+  padding-left: 5px;
+  padding-right:5px ;
+  padding-top:10px ;
+  padding-bottom:10px ;
+  font-size: 30px;
+  border-radius: 2px;
+}
+.cbp-mc-form textarea{     /* display to write*/
+  background-color: #47a3da;
+  border: solid;
+  border-color: white;
+  padding-left: 5px;
+  padding-right:5px ;
+  padding-top:10px ;
+  padding-bottom:10px ;
+  font-size: 30px;
+}
+
+
+.cbp-mc-submit{     /*send your info submit bottom*/
+  color: white;
+  background-color:#10689a;
+  width: 20%;
+  margin: 0 auto;
+  margin-left: 40%;
+  margin-right:40%;
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 20px
+
+}
