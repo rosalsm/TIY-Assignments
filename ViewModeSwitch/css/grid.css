@@ -1,3 +1,8 @@
+/*in order to change the view list to grid, we leave the same for both and
+use the class .cbp-vm-view-grid or cbp-vm-view-list*/
+
+
+
 body{
   color: #47a3da;
   font: fontawesome;
@@ -33,7 +38,7 @@ body{
   height: 60px;
 }
 
-ul{
+ul.cbp-vm-view-grid{
   height: 1900px;
   padding: 0px;
   border-top: solid;

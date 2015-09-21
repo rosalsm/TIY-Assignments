@@ -1,15 +1,54 @@
-(function (window) {
-	'use strict';
+//(function (window) {
+//'use strict';
 
 	// User Stories
 
 
 	// I can add a task to my todo list so that I can remember to do it later.
-How do I (as a user) add a task to the list?
-Select the form field for a new task (`<input type="text" id="new_task">`)
-Type in your task.
-Press the enter key
-Then the task
+//How do I (as a user) add a task to the list?
+//Select the form field for a new task (`<input type="text" id="new_task">`)
+//Type in your task.
+//Press the enter key
+//Then the task
+
+// store the value of the element input class new-todo in the variable newTask
+var newTask = document.querySelector('input.new-todo');
+//in order to print the value of newTask in the console, we console.log this var.value
+//if we print justs the var, we get the element we find in the variable but if we print
+// its value, we will get what the user type in that element in the browser.
+console.log(newTask.value);
+
+//even simpler in just one line
+console.log(document.querySelector('input.new-todo').value);
+
+
+
+
+//for the next step, the element has to stay in the screen like add to the list and
+// make more room for other task.
+//it could be once we type the task and press enter the task goes to the line below
+//and it can be added to the list of task to do. we need an event listener once
+//the user press enter and add the input in a list.
+
+//in the array tasks we add the new task everytime the user types a new one
+var tasks =[];
+tasks.push(newtask.value)
+
+//we have to show this tasks in the list in the screen.
+
+
+
+
+//next step will be add event listener in the array and when the user click in the
+//check of task done, we mark this task.
+function doneTask(markTask){
+	var completetask=markTask.currentTarget;
+	completetask.className= 'completed'
+}
+somethingTask.addEventListener('click',markTask)
+
+
+
 	// I can make a list of things to do. A list of elements in diferent lines
 	// so we can treat them separately. With text and same colors.
 
@@ -52,6 +91,6 @@ Then the task
 
 
 	// I can filter the list of tasks so that I can see just what tasks I have completed and what are left to do.
-I can add options selecting just the  completed tasks or the ones incomplete.
-Selection will be completed tasks or tasks left to do. Event will be click in
-the elements with an specific attribute (completed) or another (incomplete)
+//I can add options selecting just the  completed tasks or the ones incomplete.
+//Selection will be completed tasks or tasks left to do. Event will be click in
+//the elements with an specific attribute (completed) or another (incomplete)
