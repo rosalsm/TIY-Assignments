@@ -1,3 +1,6 @@
+var expect = require ("chai").expect;
+
+
 /**
  * write a function `max` that takes two `Numbers` as arguments
  * and returns the largest of them. HINT: Use `if-else`...!

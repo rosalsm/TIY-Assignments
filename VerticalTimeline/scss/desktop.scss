@@ -1,19 +1,98 @@
-h1{
-  color:#8A2BE2 ;
+header span{         /*blueprint*/
+  display: block;
+  color: #6cbfee;
+  font-size: 40px;
+}
+
+header{   /* vertical timeline*/
+  margin-left: 40px;
+  margin-right: 10px;
+  margin-bottom: 100px;
+  padding-top: 40px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+nav{   /*icons top right*/
+  float: right;
+  margin-right: 120px;
+}
+.icon-arrow-left::after{
+  content: "\e004";
+  color:#6cbfee;
+  width: 20px;
+  height: 20px;
+}
+
+.icon-drop::after{
+  content: "\e001"
+  color:#6cbfee;
+}
+
+h1{       /* vertical timeline*/
+  color:#6cbfee;
   font-size:3em ;
   font-style: cursiva ;
+  float: left;
+  display: block;
+  margin-bottom: 20px;
 }
+
 h2 {
-  color:Green ;
+  color:white ;
   font-size:2em ;
   font-style:colibri ;
 }
-.cbp_tmlabel{
-  color: #7B68EE;
-  background-color: #FFE4C4;
-  font-style: colibri;
+
+.cbp_tmtimeline{   /* big column with all boxes*/
+  box-sizing: border-box;
+  float: right;
+  box-sizing:border-box;
+  width:1000px;
+  margin-right: 300px;
 }
-.cbp_tmtime {
-  color: red;
-  background-color: #9ACD32;
+
+li{       /*every box*/
+  position: relative;
+  box-sizing: border-box;
+  display: inline;
+}
+
+
+time span:first-child{  /*date*/
+  color: rgb(189,208,219);
+  font-size: 20px;
+}
+time span:last-child{   /*time*/
+  font-size: 40px;
+  color: #6cbfee;
+}
+.cbp_tmtime{
+  background-color: white;          /*date and time*/
+  display: block;
+  width: 30px;
+  text-align: right;
+}
+div.cbp_tmlabel{           /*p and ricebean black-eye pea*/
+  color: white;
+  box-sizing: border-box;
+  float:rigth;
+  background-color:#6cbfee ;
+  font-style: sans-serif;
+  margin: 0 0 30px 50px;
+  border-radius: 2%;
+  display: block;
+  padding: 20px 20px 20px 20px;
+
+}
+h2{
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 10px;
+}
+p{
+  font-size: 23px;
+  font-style:;
+  display: block;
+
 }

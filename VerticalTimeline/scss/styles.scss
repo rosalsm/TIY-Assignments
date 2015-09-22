@@ -1,33 +1,99 @@
-h1{
-  color:cornflowerblue ;
+
+header span{         /*blueprint*/
+  display: block;
+  color: #6cbfee;
+  font-size: 40px;
+}
+
+header{   /* vertical timeline*/
+  margin-left: 40px;
+  margin-right: 10px;
+  margin-bottom: 100px;
+  padding-top: 40px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+nav{   /*icons top right*/
+  float: right;
+  margin-right: 120px;
+}
+.icon-arrow-left::after{
+  content: "\e004";
+  color:#6cbfee;
+  width: 20px;
+  height: 20px;
+}
+
+.icon-drop::after{
+  content: "\e001"
+  color:#6cbfee;
+}
+
+h1{       /* vertical timeline*/
+  color:#6cbfee;
   font-size:3em ;
   font-style: cursiva ;
+  float: left;
+  display: block;
+  margin-bottom: 20px;
 }
+
 h2 {
   color:white ;
   font-size:2em ;
   font-style:colibri ;
 }
+
+.cbp_tmtimeline{   /* big column with all boxes*/
+  box-sizing: border-box;
+  float: right;
+  box-sizing:border-box;
+  width:1000px;
+  margin-right: 300px;
+}
+
+li{       /*every box*/
+  position: relative;
+  box-sizing: border-box;
+  display: inline;
+}
+
+
+time span:first-child{  /*date*/
+  color: rgb(189,208,219);
+  font-size: 20px;
+}
+time span:last-child{   /*time*/
+  font-size: 40px;
+  color: #6cbfee;
+}
 .cbp_tmtime{
-  float: left;
+  background-color: white;          /*date and time*/
+  display: block;
+  width: 30px;
+  text-align: right;
+}
+div.cbp_tmlabel{           /*p and ricebean black-eye pea*/
+  color: white;
+  box-sizing: border-box;
+  float:rigth;
+  background-color:#6cbfee ;
+  font-style: sans-serif;
+  margin: 0 0 30px 50px;
+  border-radius: 2%;
+  display: block;
+  padding: 20px 20px 20px 20px;
 
 }
-.cbp_tmlabel{
-  color: white;
-  float: left;
-  background-color: cornflowerblue;
-  font-style: colibri;
-  margin-right: 15px;
-  width: px
+h2{
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 10px;
 }
-.cbp_tmtime {
-  color: cornflowerblue;
-}
-time.cbp_tmtime{
-  box-sizing: border-box;
-  font-size: 16px;
-  padding-bottom: 20px;
-  background-color: cornflowerblue;
-  float: left;
+p{
+  font-size: 23px;
+  font-style:;
+  display: block;
 
 }
