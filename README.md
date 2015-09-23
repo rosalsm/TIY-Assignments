@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TIY-Assignments
 Reading JavaScript** -- Explain and provide examples for:
 ~ Basic Literal Types:
@@ -70,3 +71,7 @@ Infinity-Infinity
 => NaN
 `Infinity`.Numbers with no end. Unlimited number of characters.
 any number / 0 gives you Infinity
+=======
+# TIY-Chessboard
+building a chess-playing application
+>>>>>>> b6ff45f87381a2b68bc68a21b5b097d33e664539
