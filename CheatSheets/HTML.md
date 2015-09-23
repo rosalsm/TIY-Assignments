@@ -133,3 +133,38 @@ They are HTML elements for styling purposes. They don’t have a meaning just si
 ### Comments in HTML
 
 They start with <!— and end with —>
+
+### Lists
+
+When we want to order information in a list we can choose between different types of them:
+#### `<ul>` Unordered lists.
+
+It is simply a list of related items whose order does not matter. An <`ul>` is a block-level element. Each item is individually marked up using the list item element `<li>`. By default most browsers precede each items with a solid dot.
+
+#### `<ol>` Ordered lists.
+
+It is a list of items as well like `<ul>` but the main difference is that with an ordered list, the order in which items are presented is important. Ex a recipe or directions to go somewhere. In the case of `<ol>`, because the order matters, the list uses numbers as a default list item marker.
+Also `<ol>` have a unique attributes to them including `start` and `reversed`.
+
+##### `<ol start=“number”>` number which you want to start your list, default is 1.
+
+##### `<ol reversed>` allows a list to appear in reversed order
+
+##### `value` attribute in an `<li>` element in an ordered list changes its value and and the rest of the items after this.
+
+ ````
+<ol>
+	<li value=“9”>do this</li>
+	<li>do that</li>
+</ol>
+````
+"do that" will have the marker 10.
+
+#### `<dl>` Description lists.
+
+This type of list is used for multiple items and their descriptions. Ex, a glossary.
+It is a block-level element but they required two block-level elements:
+
+`<dt>` description term element (name of the item)
+	
+`<dd>` description element (its definition or description) includes a left `margin` by default.
