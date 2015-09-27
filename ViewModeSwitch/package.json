@@ -1,0 +1,20 @@
+{
+  "name": "viewmodeswitch",
+  "version": "1.0.0",
+  "description": "gridandlist",
+  "main": "index.html",
+  "scripts": {
+    "test": "mocha",
+    "start": "browser-sync start --server --directory",
+    "sass": "node-sass --output css/ scss/main.scss"
+  },
+  "author": "",
+  "license": "ISC",
+
+  "devDependencies": {
+    "browser-sync": "^2.9.6",
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3",
+    "node-sass": "^3.3.3"
+  }
+}

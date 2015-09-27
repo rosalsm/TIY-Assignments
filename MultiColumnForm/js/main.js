@@ -1,14 +1,14 @@
 //JQUERY
 //1 Select the element we want to get the value from (input, textarea or select)
 //the variable stores the value entry by the user in the input name.
-var $listinputs = $('input:text ').val();
+//var $listinputs = $('input:text ').val();
 //console.log($listinputs);
 
 //when I add all inputs, selects and texareas in my var,
 //console.log gives me what I was asking for. I have the right selector.
 
 var $listinputs = $('input:text, select, texarea');
-console.log($listinputs);
+//console.log($listinputs);
 
 // [input#name, input#last-name, input#email,
 // select#country, input#experience, input#size,
