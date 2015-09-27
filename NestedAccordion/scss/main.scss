@@ -1,0 +1,24 @@
+body{
+  color: #47a3da;
+  font-family: Lato, calibri, arial;
+  display: block;
+  margin-left: 40px;
+  box-sizing: border-box;
+}
+
+ul#cbp-ntaccordion > li {
+  display: none;
+}
+
+ul#cbp-ntaccordion > li.cbp-ntopen {
+  display: block;
+}
+
+
+ul#cbp-ntsubaccordion > li {
+  display: none;
+}
+
+ul#cbp-ntsubaccordion > li.cbp-ntopen {
+  display: block;
+}
