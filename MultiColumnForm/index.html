@@ -11,7 +11,8 @@
         <!-- Place favicon.ico in the root directory -->
         <title>My Multicolumn Form</title>
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="js/main.js">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -19,48 +20,50 @@
           <h1>Multicolumn Form yeah!</h1>
         </header>
 
-        <section>
+        <section class="form">
+
+        <section class="first-column">
+
           <label for="name">Name</label>
-          <input type="text" name=""></input>
+          <input id="name" type="text" name=""></input>
 
 
           <label for="last name">Last Name</label>
-          <input type="text" name=""></input>
+          <input id="last-name" type="text" name=""></input>
 
 
           <label for="email">Email</label>
-          <input type="text" name=""></input>
+          <input id="email" type="text" name=""></input>
 
-        </section>
 
-        <section>
           <h4>Country</h4>
-          <select name="country">
+          <select id="country" name="country">
             <option value="Spain" selected>Spain</option>
             <option value="England">England</option>
             <option value="USA">USA</option>
           </select>
-        </section>
+
 
         <section>
-          <p>Do you really want to do this?</p>
-          <textarea name="comments" cols="40" rows="5">Enter your thoughts...</textarea>
+          <label for="bio">Biography</label>
+          <textarea id="bio" name="comments" cols="40" rows="5">Enter your thoughts...</textarea>
         </section>
 
-        <section>
-          <label for="experience">Toughest Experiencience</label>
-          <input type="text" name=""></input>
+      </section>
+
+        <section class="second-column">
+          <section>
+          <label for="experience">Experiencience</label>
+          <input id="experience" type="text" name=""></input>
 
 
           <label for="size">Shoe Size</label>
-          <input type="text" name=""></input>
+          <input id="size" type="text" name=""></input>
 
 
           <label for="favorite">Favorite food</label>
-          <input type="text" name=""></input>
-
+          <input id="favorite" type="text" name=""></input>
         </section>
-
 
         <section>
           <h4>Occupation</h4>
@@ -73,17 +76,18 @@
 
 
 
-<section>
-<p>Why do you put yourself in this situation?</p>
-<textarea name="comments" cols="40" rows="5">Enter your thoughts...</textarea>
-
-
-</section>
-
-
-
-
         <section>
+        <p>Why do you put yourself in this situation?</p>
+        <textarea name="comments" cols="40" rows="5">Enter your thoughts...</textarea>
+        </section>
+
+      </section>
+
+
+
+
+        <section class="third-column">
+          <section>
           <h4>Talent</h4>
           <select name="talent">
             <option value="Tennis" selected>Tennis</option>
@@ -98,11 +102,16 @@
 
         </section>
 
-        <section>
-          <input type="submit" name="submit" value="Send your data">
         </section>
 
 
+        <section class="submit">
+          <input id="submit" type="submit" name="submit" value="Send your data">
+        </section>
+
+
+
+</section>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
