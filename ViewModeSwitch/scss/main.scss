@@ -5,18 +5,18 @@ body{
   height: 3000px;
 }
 
-.bp-icon{     /*circle icons for options*/
-  color: #47a3da;
-  text-decoration: none;
-}
+// .bp-icon{     /*circle icons for options*/
+//   color: #47a3da;
+//   text-decoration: none;
+// }
 
-.cbp-vm-icon{   /*circle icons for options list and grid*/
-  text-decoration: none;
+.icon{   /*circle icons for options list and grid*/
+  text-decoration: none;   //previous cbp-vm-icon
   color: #47a3da;
   float: right;
 }
 
-.main{
+.main-part{
   border-style: solid;
   height: 2000px;
   margin-left: 30px;
@@ -27,7 +27,7 @@ body{
 
 }
 
-ul.cbp-vm-view-grid{
+ul.cbp-vm-view-grid{ //I think this one is a and data-view
   height: 1900px;
   padding: 0px;
   border-top: solid;
@@ -102,17 +102,17 @@ li.cbp-vm-view-grid{                /*each set of 1 of each bottle, price, title
 //   max-width: 100%;
 //   padding-bottom:0 10px 20px 10px;
 // }
-.cbp-vm-image.cbp-vm-view-grid{    /*bottle pictures*/
-  display: inline-block;
+.image.cbp-vm-view-grid{    /*bottle pictures*/
+  display: inline-block;    //before .cbp-vm-image.cbp-vm-view-grid
   max-width: 100%;
   padding-bottom:0 10px 20px 10px;
   display: inline-block;
 }
 
 
-.cbp-vm-image.cbp-vm-view-list{    /*bottle pictures*/
+.image.cbp-vm-view-list{    /*bottle pictures*/
   width: 20%;
-  height: 40%;
+  height: 40%;              //before. cbp-vm-image
   float: left;
   display: inline-block;
   max-width: 100%;
@@ -130,12 +130,12 @@ li.cbp-vm-view-grid{                /*each set of 1 of each bottle, price, title
 //
 // }
 
-h3.cbp-vm-title.cbp-vm-view-grid{  /*names of drinks*/
+h3.title.cbp-vm-view-grid{  /*names of drinks*/
   font-size: 25px;
-}
+}                                 //before .cbp-vm-title
 
-h3.cbp-vm-title.cbp-vm-view-list{  /*names of drinks*/
-  width: 20%;
+h3.title.cbp-vm-view-list{  /*names of drinks*/
+  width: 20%;               // before .cbp-vm-title
   height: 20%;
   float: left;
   font-size: 25px;
@@ -156,18 +156,18 @@ h3.cbp-vm-title.cbp-vm-view-list{  /*names of drinks*/
 //   margin-top: 2%;
 // }
 
-div.cbp-vm-price.cbp-vm-view-grid{     /*prices*/
+div.price.cbp-vm-view-grid{     /*prices*/
   margin-top: 10px;
   margin-bottom: 10px;
   color: grey;
-  font-size: 25px;
+  font-size: 25px;                  //before .cbp-vm-price
   box-sizing: border-box;
 
 }
 
-div.cbp-vm-price.cbp-vm-view-list{     /*prices*/
+div.price.cbp-vm-view-list{     /*prices*/
   width: 20%;
-  height: 20%;
+  height: 20%;                  // before .cbp-vm-price
   float: left;
   color: grey;
   font-size: 25px;
@@ -188,13 +188,13 @@ div.cbp-vm-price.cbp-vm-view-list{     /*prices*/
 //   display: inline-block;
 //   float: left;
 // }
-.cbp-vm-details.cbp-vm-view-grid{  /* drink explanation */
-  box-sizing: border-box;
+.details.cbp-vm-view-grid{  /* drink explanation */
+  box-sizing: border-box;     //before .cbp-vm-details
   margin-bottom: 30px;
 }
 
-.cbp-vm-details.cbp-vm-view-list{  /* drink explanation */
-  width: 20%;
+.details.cbp-vm-view-list{  /* drink explanation */
+  width: 20%;             // before .cbp-vm-details
   height: 20%;
   box-sizing: border-box;
   margin-left: 2%;
@@ -219,9 +219,9 @@ div.cbp-vm-price.cbp-vm-view-list{     /*prices*/
 //   text-align: center;
 // }
 
-.cbp-vm-icon.cbp-vm-add.cbp-vm-view-grid{  /*add to cart of bottles*/
+.icon.cbp-vm-view-grid{  /*add to cart of bottles*/
   border-radius: 2px;
-  color: white;
+  color: white;                           // before cbp-vm-icon.cbp-vm-add
   background-color: #47a3da;
   padding: 10px 20px 10px 20px;
   margin-top: 30px;
@@ -232,9 +232,9 @@ div.cbp-vm-price.cbp-vm-view-list{     /*prices*/
 }
 
 
-.cbp-vm-icon.cbp-vm-add.cbp-vm-view-list{  /*add to cart of bottles*/
+.icon.cbp-vm-view-list{  /*add to cart of bottles*/
   width: 10%;
-  height: 20%;
+  height: 20%;                        // before cbp-vm-icon.cbp-vm-add
   float: left;
   box-sizing: border-box;
   border-radius: 2px;
