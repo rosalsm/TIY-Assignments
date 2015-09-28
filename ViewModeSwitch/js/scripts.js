@@ -1,27 +1,36 @@
-//I am going to use Karlo's code to this project to have the list and grid view
 
-var divVm = document.querySelector('div#cbp-vm');
-var aGrid = document.querySelector('a.cbp-vm-icon.cbp-vm-grid');
-var aList = document.querySelector('a.cbp-vm-icon.cbp-vm-list');
+//JQuery
 
-function clickGrid(clickButton){
+var $divSelec =
 
-  var curButton= clickButton.currentTarget;
-  divVm.className = 'cbp-vm-switcher cbp-vm-view-grid';
-  curButton.className ='cbp-vm-icon cbp-vm-grid cbp-vm-selected';
-  aList.className = 'cbp-vm-icon cbp-vm-list';
-}
 
-function clickList (clickButton){
-  var curButton=clickButton.currentTarget;
-  divVm.className = 'cbp-vm-switcher cbp-vm-view-list';
-  curButton.className= 'cbp-vm-icon cbp-vm-list cbp-vm-selected';
-  aGrid.className= 'cbp-vm-icon cbp-vm-grid';
 
-}
 
-aGrid.addEventListener('click', clickGrid);
-aList.addEventListener('click',clickList);
+
+//JAVASCRIPT
+//I am going to use as my base Karlo's code to this project, however I made some changes my own.
+
+// var divSelec = document.querySelector('div#cbp-vm');
+// var aGrid = document.querySelector('a.cbp-vm-icon.cbp-vm-grid');
+// var aList = document.querySelector('a.cbp-vm-icon.cbp-vm-list');
+//
+// function clickGrid(clickButton){
+//
+//   divSelec.className = 'cbp-vm-switcher cbp-vm-view-grid';
+//   clickButton.currentTarget.className ='cbp-vm-icon cbp-vm-grid cbp-vm-selected';
+//   aList.className = 'cbp-vm-icon cbp-vm-list';
+// }
+//
+// function clickList (clickButton){
+//
+//   divSelec.className = 'cbp-vm-switcher cbp-vm-view-list';
+//   clickButton.currentTarget.className= 'cbp-vm-icon cbp-vm-list cbp-vm-selected';
+//   aGrid.className= 'cbp-vm-icon cbp-vm-grid';
+//
+// }
+//
+// aGrid.addEventListener('click', clickGrid);
+// aList.addEventListener('click',clickList);
 
 
 

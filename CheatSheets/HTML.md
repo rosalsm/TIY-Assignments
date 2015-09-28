@@ -32,9 +32,11 @@ A generic page division that should only be used if no other, more semantic choi
 
 HTML is a markup language.
 
-HTML separates content(words, images, audio, video,etc) from presentation (instructions for displaying each type of content).
+HTML separates content(words, images, audio, video,etc) from presentation
+ (instructions for displaying each type of content).
 
-HTML uses a pre-defined set of elements to define content types. Elements contain one or more”tags” that contain or express content. Tags are enclosed by angle brackets < />.
+HTML uses a pre-defined set of elements to define content types. Elements contain
+one or more”tags” that contain or express content. Tags are enclosed by angle brackets < />.
 
 Opening tag ``<p>`` and closing tag ``</p>`` with no white spaces between characters.
 
@@ -45,12 +47,14 @@ Ex;             <p>You are <em> beginning</em> to learn HTML.</p>
 
 ### Elements.
 
-Elements are designators that define the structure and content of objects within a page. Elements are identified by the use of < > angle brackets .
+Elements are designators that define the structure and content of objects within
+a page. Elements are identified by the use of < > angle brackets .
 
 
 #### Head ``<head>``
 
-Identifies the top of the document including any metadata (information about the page). It may include the document title (little bar on the browser window)
+Identifies the top of the document including any metadata (information about the
+page). It may include the document title (little bar on the browser window)
 
 
 #### Body ``<body>``
@@ -60,12 +64,14 @@ Where all the visible content start.
 
 #### Headings ``<h1>`` through ``<h6>``
 
-They are block-level elements and they are identifiers for users reading a page. Determine the content on a page. They should be in order that is relevant to the content on a page.
+They are block-level elements and they are identifiers for users reading a page.
+Determine the content on a page. They should be in order that is relevant to the content on a page.
 
 
 #### Header ``<header>``
 
-It is used to identify the top of the page or other segment of the page. It may include a heading, introductory text and even navigation.
+It is used to identify the top of the page or other segment of the page. It may
+include a heading, introductory text and even navigation.
 
 
 #### Paragraphs ``<p>``
@@ -78,11 +84,13 @@ Headings are supporting paragraphs. Paragraphs are block-level elements.
 
 ### Tags
 
-The use of the < > surrounding the element creates what we know as a tag. Tags go in pairs of opening < > and closing </ >.
+The use of the < > surrounding the element creates what we know as a tag. Tags
+go in pairs of opening < > and closing </ >.
 
 ### Attributes
 
-Attributes are properties used to provide additional information about an element. The most common attributes are:
+Attributes are properties used to provide additional information about an element.
+The most common attributes are:
 
 #### id
 Which identifies an element.
@@ -107,27 +115,37 @@ Attributes are defined including a name and a value.
 
 ### Document Structure
 
-``<!DOCTYPE html>`` informs web browsers which version of HTML is being used. If we used the last version, this is what we write.
+``<!DOCTYPE html>`` informs web browsers which version of HTML is being used.
+If we used the last version, this is what we write.
 
 ``<html>`` signifies the beginning of the document.
 
-``<head>`` identifies the top of the document including any metadata (information about the page). It may include the document title (little bar on the browser window)
+``<head>`` identifies the top of the document including any metadata (information
+	about the page). It may include the document title (little bar on the browser window)
 
 ``<body>`` where all the visible content start.
 
 
 ### Divisions ``<div>`` and Spans ``<span>``
 
-They are HTML elements for styling purposes. They don’t have a meaning just simply containers.
+They are HTML elements for styling purposes. They don’t have a meaning just
+simply containers.
 
-``<div>`` is a block-level element that is generally used to identify large group of content and it helps to build a web page’s layout and design.
+``<div>`` is a block-level element that is generally used to identify large group
+	of content and it helps to build a web page’s layout and design.
 
 
-	Block -level elements begin on a new line, stacking one on top of the other and occupy 		any available width. May be nested inside one another and wrap inline-level elements. 		Commonly used for larger pieces of content such a paragraph.
+	Block -level elements begin on a new line, stacking one on top of the other and
+	occupy any available width. May be nested inside one another and wrap inline-level
+	element. Commonly used for larger pieces of content such a paragraph.
 
-``<span>`` is an inline-level element, normally used to identify small group of text within a block-level element.
+``<span>`` is an inline-level element, normally used to identify small group of
+	text within a block-level element.
 
-	Inline-level elements do not begin in a new line. They line up one after the other and 		maintain the width of their content, they can be nested inside one another but they 		cannot wrap bloc-level elements. They are normally small pieces of content such as a 		few words.
+	Inline-level elements do not begin in a new line. They line up one after the
+	other and maintain the width of their content, they can be nested inside one
+	another but they cannot wrap bloc-level elements. They are normally small 
+	pieces of content such as a few words.
 
 
 ### Comments in HTML
