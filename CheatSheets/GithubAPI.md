@@ -1,17 +1,17 @@
 GitHub API
 Authentication
 
-Do I need to authenticate?
+1.Do I need to authenticate?
 Yes if you want to interact with the page. Authentication is the key to
 reading and writing private information via the API.
 
-What can I do with an unauthenticated request?
+2.What can I do with an unauthenticated request?
 Navigate through the site just accesing to the parts that you don't need to sign up.
 
-What can't I do with an unauthenticated request?
+3.What can't I do with an unauthenticated request?
 You can't access to the information that required sign up
 
-How can I authenticate my request?
+4.How can I authenticate my request?
 This is a graphic of Authorization code flow
 https://tools.ietf.org/html/rfc6749#section-4.1
 
@@ -40,22 +40,29 @@ OAuth2 Key/Secret
 $ curl 'https://api.github.com/users/whatever?client_id=xxxx&client_secret=yyyy'
 Users
 
--How do I ask the API for the profile information for a specific user?
+5.How do I ask the API for the profile information for a specific user?
+GET /users/:username
 
--The repository listing for a specific user?
+6.The repository listing for a specific user?
 Here, we fetch the list of repositories owned by the octokit organization:
 GET /orgs/octokit/repos
 GET /orgs/<org>/issues
 
-The recent, public activity for a specific user?
--Is there a limit to the number of requests I can make?
+7.The recent, public activity for a specific user?
+GET /users/:username/events/public   public events perform by a user.
+GET /users/:username/received_events/public  public events user has received.
+
+8.Is there a limit to the number of requests I can make?
 For requests using Basic Authentication or OAuth, you can make up to 5,000 requests per hour. For unauthenticated requests, the rate limit allows you to make up to 60 requests per hour.
 
--Is there a way of extending that limit?
+9.Is there a way of extending that limit?
 Making a conditional request.
 
--What happens when I hit the limit?
+10.What happens when I hit the limit?
 Once you go over the rate limit you will receive an error response
-What if there is a lot of data returned?
-How can I ask for more (or less) data from a request?
-How do I know that there is more data available?
+
+11.What if there is a lot of data returned?
+
+12.How can I ask for more (or less) data from a request?
+
+13.How do I know that there is more data available?
