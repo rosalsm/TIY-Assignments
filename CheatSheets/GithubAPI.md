@@ -81,11 +81,18 @@ Once you go over the rate limit you will receive an error response
 
 What are the endpoints for fetching...
     * the profile data for a user?
+    "avatar_url": "https://avatars.githubusercontent.com/u/583231?v=3",
+    "html_url": "https://github.com/octocat",
     * the organizations a user belongs to?
+    "organizations_url": "https://api.github.com/users/octocat/orgs",
     * the repositories a user has created?
+    "repos_url": "https://api.github.com/users/octocat/repos",
     * a filtered list of repositories?
+
     * a sorted list of repositories?
     * public events for a user?
+    "events_url": "https://api.github.com/users/octocat/events{/privacy}",
+
 
 
   * When fetching public events for a user...
