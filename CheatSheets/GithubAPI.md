@@ -97,6 +97,7 @@ What are the endpoints for fetching...
 
   * When fetching public events for a user...
     * How many results are returned by default?
+    30
     * What limitations exist on fetching _more_ results?
     * What is the basic structure of the results?
     * What fields are included in each result?
