@@ -103,3 +103,43 @@ What are the endpoints for fetching...
     * What fields are included in each result?
     * What are the data types for each field?
     * What are some of the different values for the `type` field?
+
+
+
+    **Reading APIs**
+
+  * How can I use the Github API to...
+
+    * get all the comments for a particular issue?
+
+	GET/repos/:owner/:repo/issues/:number/comments
+	parameters will be since with type string
+	issue comments will be ordered by ascending ID.
+
+    * add a comment to an issue?
+
+	POST /repos/:owner/:repo/issues/:number/comments
+	Input will be body with type string
+
+
+  * How can I use the jQuery API to…
+
+   * get the HTML contents of an element?
+
+In an HTML document, .html() can be used to get the contents of any element. If the selector expression matches more than one element, only the first match will have its HTML content returned. Consider this code:
+$( "div.demo-container" ).html();
+It returns a string
+
+    * create a _new_ HTML element?
+
+.add( elements )
+The following will not save the added elements, because the .add() method creates a new set and leaves the original set in pdiv unchanged:
+
+    * add an HTML element to the page?
+    
+.append( content [, content ] )
+Insert content, specified by the parameter, to the end of each element in the set of matched elements.
+
+  * How can I use the Lodash API to...
+    * replace placeholders with values from an object?
+    * repeat code for every item of an array
