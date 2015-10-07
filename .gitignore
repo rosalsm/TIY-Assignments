@@ -4,4 +4,6 @@ bower_components
 MultiColumnForm/css
 ViewModeSwitch/css
 NestedAccordion/css
-npm-debug
+npm-debug.log
+MultiColumnForm/css/main.css
+NestedAccordion/css/main.css
