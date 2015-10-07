@@ -183,75 +183,131 @@ Also `<ol>` have a unique attributes to them including `start` and `reversed`.
 This type of list is used for multiple items and their descriptions. Ex, a glossary.
 It is a block-level element but they required two block-level elements:
 
-`<dt>` description term element (name of the item)
+#### `<dt>`
+description term element (name of the item)
 
-`<dd>` description element (its definition or description) includes a left `margin` by default.
+#### `<dd>`
+description element (its definition or description) includes a left `margin` by default.
 
-	`<details>`	The HTML Details Element is used as a disclosure widget from which
+#### `<details>`
+The HTML Details Element is used as a disclosure widget from which
 		the user can retrieve additional information.
 
-	``<dialog>`` this element represents a dialog box or other interactive component,
-		such as an inspector or window. ``<form>`` elements can be integrated within a
-		dialog by specifying them with the attribute method="dialog". When such a form
-		is submitted, the dialog is closed with a returnValue attribute set to the value
-		of the submit button used.
+#### ``<dialog>``
 
-	 ``<menu>`` element represents a group of commands that a user can perform or
-		 activate. This includes both list menus, which might appear across the top of
-		 a screen, as well as context menus, such as those that might appear underneath
-		 a button after it has been clicked.
+this element represents a dialog box or other interactive component,
+such as an inspector or window. ``<form>`` elements can be integrated within a
+dialog by specifying them with the attribute method="dialog". When such a form
+is submitted, the dialog is closed with a returnValue attribute set to the value
+of the submit button used.
 
-	``<summary>``	The HTML summary element is used as a summary, caption, or
-		 legend for the content of a <details> element.
+#### ``<menu>``
+element represents a group of commands that a user can perform or
+activate. This includes both list menus, which might appear across the top of
+a screen, as well as context menus, such as those that might appear underneath
+a button after it has been clicked.
 
-	``<button>``represents a clickable button.
+#### ``<summary>``
+The HTML summary element is used as a summary, caption, or
+legend for the content of a <details> element.
 
-
-	``<datalist>``contains a set of ``<option>`` elements that represent the values
-		available for other controls interface. It can be associated with a control
-		either by placing the control element inside the ``<label>`` element, or by
-		using the for attribute. Such a control is called the labeled control of the
-		label element.
-
-	``<fieldset>``element is used to group several controls as well as labels ``<label>''
-		within a web form.
-
-	``<form>``	element represents a document section that contains interactive
-		controls to submit information to a web server.
-
-	``<input>``element is used to create interactive controls for web-based forms in
-		order to accept data from the user. How an ``<input>`` works varies considerably
-		depending on the value of its type attribute.
-
-	``<keygen>``element exists to facilitate generation of key material, and submission
-		of the public key as part of an HTML form. This mechanism is designed for use with
-		Web-based certificate management systems. It is expected that the ``<keygen>``
-		element will be used in an HTML form along with other information needed to construct
-		a certificate request, and that the result of the process will be a signed certificate.
-
-	``<label>``represents a caption for an item in a user.
+#### ``<button>``
+represents a clickable button.
 
 
-	``<legend>``element (or HTML Legend Field Element) represents a caption for the
-		content of its parent ``<fieldset>``.
+#### ``<datalist>``
+contains a set of ``<option>`` elements that represent the values
+available for other controls interface. It can be associated with a control
+either by placing the control element inside the ``<label>`` element, or by
+using the for attribute. Such a control is called the labeled control of the
+label element.
 
-	``<meter>``	element represents either a scalar value within a known range or a
-		fractional value.
+#### ``<fieldset>``
+element is used to group several controls as well as labels ``<label>''
+within a web form.
 
-	``<optgroup>``element  creates a grouping of options within a ``<select>`` element.
+#### ``<form>``
+element represents a document section that contains interactive
+controls to submit information to a web server.
 
-	``<option>``element is used to create a control representing an item within a
-		``<select>``, an ``<optgroup>`` or a ``<datalist>`` HTML5 element.
+#### ``<input>``
+element is used to create interactive controls for web-based forms in
+order to accept data from the user. How an ``<input>`` works varies considerably
+depending on the value of its type attribute.
 
-	``<output>``element represents the result of a calculation or user action.
+#### ``<keygen>``
+element exists to facilitate generation of key material, and submission
+of the public key as part of an HTML form. This mechanism is designed for use with
+Web-based certificate management systems. It is expected that the ``<keygen>``
+element will be used in an HTML form along with other information needed to construct
+a certificate request, and that the result of the process will be a signed certificate.
 
-	``<progress>``element is used to view the completion progress of a task. While
-		the specifics of how it's displayed is left up to the browser developer, it's
-		typically displayed as a progress bar. Javascript can be used to manipulate the
-		value of progress bar.
+#### ``<label>``
+represents a caption for an item in a user.
 
-	``<select>``element represents a control that presents a menu of options. The
-		options within the menu are represented by ``<option>`` elements, which can be
-		grouped by ``<optgroup>`` elements. Options can be pre-selected for the user.
 
-	``<textarea>`` element represents a multi-line plain-text editing control.
+#### ``<legend>``
+element (or HTML Legend Field Element) represents a caption for the
+content of its parent ``<fieldset>``.
+
+#### ``<meter>``
+element represents either a scalar value within a known range or a
+fractional value.
+
+#### ``<optgroup>``
+element  creates a grouping of options within a ``<select>`` element.
+
+#### ``<option>``
+element is used to create a control representing an item within a
+``<select>``, an ``<optgroup>`` or a ``<datalist>`` HTML5 element.
+
+#### ``<output>``
+element represents the result of a calculation or user action.
+
+#### ``<progress>``
+element is used to view the completion progress of a task. While
+the specifics of how it's displayed is left up to the browser developer, it's
+typically displayed as a progress bar. Javascript can be used to manipulate the
+value of progress bar.
+
+#### ``<select>``
+element represents a control that presents a menu of options. The
+options within the menu are represented by ``<option>`` elements, which can be
+grouped by ``<optgroup>`` elements. Options can be pre-selected for the user.
+
+#### ``<textarea>``
+element represents a multi-line plain-text editing control.
+
+
+
+## `<table>`  
+element to initialize a table on a page
+
+#### `<tr>`
+element will be the table row
+
+#### `<td>`
+table data element (data cells) making columns inside the row
+
+#### `<th>`
+table header gives a heading to a column or row. When we add the `scope` attribute indicates what content of a table header relates to. The values can be `col`, `row`, `colgroup`, `rowgroup`. Having a table heading in a table can help readers giving sense of a table.
+
+````
+<table>
+	<tr>
+	    <th scope=‘col’>Item</th>  column has header Item
+		.
+		.
+		.
+````
+#### `<caption>`
+element provides a title for the table. It should be immediately after the opening `<table>`, this is its default position.
+
+#### `<thead>`
+Table head element wraps all the heading rows and columns to denote the head. Its position is after the `<caption>`
+
+#### `<tbody>`
+It contains the primary data within a table.
+
+#### `<tfoot>`
+It contains data that outlines the contents of a table.
