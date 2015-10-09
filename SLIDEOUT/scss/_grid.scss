@@ -23,18 +23,21 @@ section.active{
 section{
   display: none;
 }
-div.b{
-  width:16%;
-  display: inline-block;
-  text-align: center;
-  border: 10px 5px;
+section.b{
+  width: 16%;
+  display: block;
+  box-sizing: border-box;
+  float: left;
+  margin: 2% 1% ;
   border-right-width: thin;
   background-color: grayscale(15%);
   h3{
     color: lightgray;
-
+    text-align: center;
   }
-}
-img{
-  position: absolute;
+  img{
+    
+  }
+
+
 }
