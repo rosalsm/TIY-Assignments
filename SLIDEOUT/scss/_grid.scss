@@ -15,29 +15,26 @@ nav.tabs{
     margin: 30px 30px;
     font-size: 30px;
   }
-
 }
 section.active{
   display: inline-block;
+  width: 100%;
 }
 section{
   display: none;
 }
 section.b{
-  width: 16%;
+  width: 15%;
   display: block;
   box-sizing: border-box;
   float: left;
-  margin: 2% 1% ;
   border-right-width: thin;
   background-color: grayscale(15%);
   h3{
     color: lightgray;
     text-align: center;
   }
-  img{
-    
-  }
-
+}
+section#fine{
 
 }
