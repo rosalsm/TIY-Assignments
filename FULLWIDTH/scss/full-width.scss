@@ -25,7 +25,14 @@ h1{
     }
   }
 }
-img:hover {
-  background-color: #47a3da;
+.cat .text{
+  visibility: hidden;
+
+}
+.cat:hover .text{
+  color: #47a3da;
+  visibility: visible;
   opacity: 1;
+  position: relative;
+  margin-bottom: 30px;
 }
