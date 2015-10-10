@@ -1,23 +1,38 @@
+
+
 body{
   width: 100%;
+  font-family: 'Lato', Calibri, Arial, sans-serif;
 }
 header{
   width: 90%;
   height: 200px;
   text-align: left;
   margin: 50px 20px 10px 20px;
-
 }
-// main:after{
-//    content: "";
-//    display: table;
-//    clear: both;
-// }
 h1{
   color: #47a3da;
 }
+#container{
+  margin: 0;
+  border: 0;
+  width: 100%;
+  li{
+    display: inline-block;
+    width: 15%;
+    img{
+    width: 100%;
+    }
+  }
+}
+.cat .text{
+  visibility: hidden;
 
-section{
-  display: inline-block;
-  float: left;
+}
+.cat:hover .text{
+  color: #47a3da;
+  visibility: visible;
+  opacity: 1;
+  position: relative;
+  margin-bottom: 30px;
 }

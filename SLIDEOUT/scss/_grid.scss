@@ -1,0 +1,40 @@
+h1{
+  color: #47a3da;
+}
+main.container{
+  width: 100%;
+
+}
+
+nav.tabs{
+  height: 100px;
+  color: white;
+  background-color: #47a3da;
+  div{
+    display: inline-block;
+    margin: 30px 30px;
+    font-size: 30px;
+  }
+}
+section.active{
+  display: inline-block;
+  width: 100%;
+}
+section{
+  display: none;
+}
+section.b{
+  width: 15%;
+  display: block;
+  box-sizing: border-box;
+  float: left;
+  border-right-width: thin;
+  background-color: grayscale(15%);
+  h3{
+    color: lightgray;
+    text-align: center;
+  }
+}
+section#fine{
+
+}
