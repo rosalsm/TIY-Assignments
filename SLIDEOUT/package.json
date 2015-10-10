@@ -1,6 +1,6 @@
 {
   "name": "slideout",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "blueprints slide out",
   "main": "main.js",
   "scripts": {
