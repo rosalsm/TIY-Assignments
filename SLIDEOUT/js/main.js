@@ -15,8 +15,13 @@ $('div#fine').on('click',function(){
   $(this).addClass('active');
   $('section#fine').toggleClass('active').siblings().removeClass('active');
 })
-// $('div.mission').on('click',function(){
-//   console.log('probando mission');
-//   $(this).addClass('active');
-//   $('section#mission').toggleClass('active').siblings().removeClass('active');
-// })
+$('div#mission').on('click',function(){
+  console.log('probando mission');
+  $(this).addClass('active');
+  $('section#mission').toggleClass('active').siblings().removeClass('active');
+})
+$('div#contact').on('click',function(){
+  console.log('probando contact');
+  $(this).addClass('active');
+  $('section#contact').toggleClass('active').siblings().removeClass('active');
+})

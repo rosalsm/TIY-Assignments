@@ -3,7 +3,6 @@ h1{
 }
 main.container{
   width: 100%;
-
 }
 
 nav.tabs{
@@ -38,6 +37,7 @@ section.b{
   float: left;
   border-right-width: thin;
   background-color: grayscale(15%);
+  padding-left: 5%;
   h3{
     color: lightgray;
     text-align: center;
@@ -49,9 +49,9 @@ section#fine{
   margin-left: 30%;
 }
 // this media doesn't work
-@media screen and (max-device-width: 1024px){
+@media only screen and (max-device-width: 1024px){
    nav.tabs{
-    display: block;
-    font-size: 10px;
+    width: 100%;
+    float: left;
   }
 }
