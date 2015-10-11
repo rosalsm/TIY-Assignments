@@ -3,7 +3,6 @@ h1{
 }
 main.container{
   width: 100%;
-
 }
 
 nav.tabs{
@@ -16,6 +15,14 @@ nav.tabs{
     font-size: 30px;
   }
 }
+
+div:hover{
+  color: #02639d;
+}
+div#lovely::before{
+  content: "\f106";
+}
+
 section.active{
   display: inline-block;
   width: 100%;
@@ -23,18 +30,28 @@ section.active{
 section{
   display: none;
 }
+
 section.b{
   width: 15%;
   display: block;
-  box-sizing: border-box;
   float: left;
   border-right-width: thin;
   background-color: grayscale(15%);
+  padding-left: 5%;
   h3{
     color: lightgray;
     text-align: center;
   }
 }
-section#fine{
 
+section#fine{
+  width: 60%;
+  margin-left: 30%;
+}
+// this media doesn't work
+@media only screen and (max-device-width: 1024px){
+   nav.tabs{
+    width: 100%;
+    float: left;
+  }
 }
