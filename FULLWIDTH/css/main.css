@@ -1,0 +1,79 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+  width: 100%;
+  font-family: 'Lato', Calibri, Arial, sans-serif; }
+
+header {
+  width: 90%;
+  height: 40%;
+  text-align: left;
+  margin: 90px 40px 10px 90px; }
+
+h1 {
+  color: #47a3da;
+  font-weight: lighter; }
+
+#container {
+  margin: 0;
+  border: 0;
+  width: 100%;
+  margin-left: -40px; }
+
+#container li {
+  list-style-type: none;
+  position: relative;
+  float: left;
+  width: 16.66667%; }
+
+#container li a,
+#container li a img {
+  display: block;
+  width: 100%; }
+
+#container li a img {
+  max-width: 100%; }
+
+#container li a .text {
+  position: absolute;
+  left: 25px;
+  right: 25px;
+  top: 22px;
+  bottom: 25px;
+  background-color: #B0E0E6;
+  text-align: center;
+  align-items: center; }
+
+.cat .text {
+  visibility: hidden; }
+
+#container li a:hover .text {
+  color: white;
+  visibility: visible;
+  opacity: 0.7;
+  font-size: 15px; }
+
+#container li a .text h3 {
+  position: absolute;
+  top: 40%;
+  left: 25%; }
+
+@media (max-width: 768px) {
+  #container li {
+    width: 50%; } }
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  #container li {
+    width: 33.33333%; } }
+
+@media (min-width: 1025px) {
+  #container li {
+    width: 16.66667%; } }
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
